@@ -1,7 +1,7 @@
 import org.apache.commons.lang3.ArrayUtils;
 
 public class java_code {
-	public static void randomInt(int num) {
+	public static void generateRandomNumbers(int num) {
 		if(num < 0) num = 0;
 		int min = 1;
 	      int max = (int) num;
@@ -20,7 +20,7 @@ public class java_code {
 
 	public static void main(String[] args) {
     //call the Random function with argument n
-		randomInt(12);
+		generateRandomNumbers(12);
 	}
 
 }

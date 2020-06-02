@@ -1,5 +1,5 @@
 import random
-def randomGenerate( num ):
+def generateRandomNumbers( num ):
   min = 1;
   if num < 0 :
     num = 0
@@ -14,7 +14,7 @@ def randomGenerate( num ):
       count = count + 1
       print(randomInt)
 
-randomGenerate(12)
+generateRandomNumbers(12)
 
 
  # Output:
